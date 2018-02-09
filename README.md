@@ -5,6 +5,9 @@ Coin mixer archcitecture comprises of 3 components:
 2. Mixer
 3. Doler
 
+Architecture Diagram: 
+![Architecture Diagram](https://github.com/msravan/jobcoin-mixer/blob/master/Architecute.png)
+
 Mapper: 
 1. Receives user input - inputAddress 
 2. Generates a new Address and maps it with the input address and shares the map with the Mixer
