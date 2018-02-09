@@ -27,11 +27,11 @@ Things still to do:
 3. Re-design architecture - more efficient and fault tolerant.
 4. More number of test cases and edge cases.
 
-#Steps to Run this project:
+Steps to Run this project:
 
 1. Clone this repository and do maven clean compile install
 2. Run the Application.Scala
-3. Service requests to provide input address and generates an address.
+3. Service requests to provide input address and generates a new address for every input.
 4. Send job coins to the generated address using the Job Coin API.
 5. You should see job coins transaction from the house account address to the input address provided in step-3.
 6. If we check the transactions of the input address, it does not show the actual sender address, instead shows house account address.
