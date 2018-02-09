@@ -24,4 +24,5 @@ Doler:
 Things still to do:
 1. Currently Doler could only distribute the 1st transaction, 2nd transaction is taking very long. Commented out this function in the code.
 2. Add fee for the mixing service.
-3. Re-design architecture - more efficient and fault tolerant
+3. Re-design architecture - more efficient and fault tolerant.
+4. More number of test cases and edge cases.
