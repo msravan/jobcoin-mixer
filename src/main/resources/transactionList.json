@@ -1,0 +1,10 @@
+{
+  "transactions":[
+    {
+      "timestamp": "String",
+      "fromAddress": "String",
+      "toAddress":"String",
+      "amount": "String"
+    }
+  ]
+}
