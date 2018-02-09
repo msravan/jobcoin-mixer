@@ -13,7 +13,7 @@ class DolerSpec extends FlatSpec with Matchers {
   }
 
   it should "generate list of transactions when dole is called " in {
-    val transaction =  new Transaction("Some Time", "Sender", "Receiver", 20.5656565)
+    val transaction =  new Transaction("Some Time", "Sender", "Receiver", 20.5656)
   val listOfTransaactions: List[Transaction] = Doler.dole(transaction)
   val calcAmount =listOfTransaactions.foldLeft(0.00)((acc, transaction: Transaction) =>{
       acc + transaction.amount
